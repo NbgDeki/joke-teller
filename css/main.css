@@ -1,0 +1,44 @@
+/*
+0-600px: Phone
+0-900px: Tablet portrait
+0-1200px: Tablet lanscape
+[1200-1800] is where our normal styles apply
+1800px+ : Phone
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  shape-margin: 0.75rem;
+}
+
+/*# sourceMappingURL=main.css.map */
