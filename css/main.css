@@ -25,6 +25,8 @@ html {
 
 body {
   min-height: 100vh;
+  background-color: #45badd;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img,
@@ -39,6 +41,19 @@ video {
   background-size: cover;
   object-fit: cover;
   shape-margin: 0.75rem;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./../robot.gif");
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */
